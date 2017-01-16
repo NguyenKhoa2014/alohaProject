@@ -243,6 +243,7 @@ section h2 {
      background:
       linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ),
       url('../images/wave-bkgd.jpg') no-repeat center bottom;
+      background-size: cover;
      height: 20rem; 
     color: white;
     margin-top: 5rem;
@@ -262,7 +263,8 @@ input[type="email"]{
   padding-left: 1rem;
   margin: 0 auto; 
   margin-right: 70%;
-  left: 35% ;
+  left: 30%;
+  /*left: 42% ;*/
 }
 
 input[type="value"]{
@@ -290,6 +292,9 @@ footer {
 .contact-group {
     margin-bottom: 1rem;
 }
+.contact-group a {
+    color: white;
+}
  
 .social-text {
     display:none;
@@ -300,6 +305,9 @@ footer {
 
 /* this section is for screen size that larger than iphone 7 */
 @media only screen and (min-width: 40em) {
+    html {
+        font-size: 16px;
+    }
     h2 {
         font-size: 2.4rem;
     }
@@ -344,20 +352,41 @@ footer {
         float: left;
         width: 50%;
     }
-    /* footer section */
+/*section subscribe*/
+    .subscribe p {
+        font-size: 1.5rem;
+        width: 53.1rem;
+        text-align: center;
+        margin-left:30%;
+    }
+    input[type="email"]{
+        width: 22rem;
+        height: 2.7rem;
+        /*padding-left: 1rem;*/
+        left: 42% ;
+}
+/* footer section */
     .contact-group {
         float:left;
+        padding-left: 0.5rem;
+        /*left: 3rem;*/
+        text-align:left;
     }
     .social-media {
         float: right;
     }
     .social-text {
-        margin-left: 8px;
+        margin-left: 1rem;
         display: inline-block;
+    }
+    .social-media ul {
+        padding-right: 2rem;
     }
     .social-media li {
         display: block;
     }
+ 
+ 
 }
  
 
@@ -367,7 +396,29 @@ footer {
         width: 25%;
     }
 
- 
+    /*section subscribe*/
+    .subscribe p {
+        font-size: 1.5rem;
+        width: 53.1rem;
+        text-align: center;
+        margin-left:30%;
+    }
+    input[type="email"]{
+        width: 22rem;
+        height: 2.7rem;
+        left: 42% ;
+    }
+    input[type="button"] {
+        font-weight: bold;
+        background-color: #e2574c;
+        cursor:pointer;
+        margin-left: 5.5rem;
+        margin-top: 0.2rem;
+} 
+
+.fa {
+    margin-right: 1rem;
+} 
 }
 
  
