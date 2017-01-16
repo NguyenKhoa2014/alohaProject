@@ -1,83 +1,72 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Aloha Shop</title>
-		<meta charset="utf-8">	
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
- 	 
-		<link rel="stylesheet" type="text/css" href="css/style.css">		 		
-		<script src="https://use.fontawesome.com/cd871daca7.js"></script>
-	</head>
-	<body>
-	<header class="pageHeader    clearfix">
+<head>
+	<title>Aloha Shop</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://use.fontawesome.com/cd871daca7.js"></script>
+</head>
+<body>
+	<header class="page-header container   clearfix">
 		<h1 class="headerH1">Aloha</h1>
 		<div class="logo "><img src="images/aloha-logo.svg" alt="logo">   </div> 
 		<div class="cart"><img src="images/cart-icon.svg" alt="shoppingCart"></div>   
 	</header>
- 	<section class="hero clearfix">
- 		<div class="heroText container">
- 			<p class="newCollection">NEW COLLECTION</p>
+	<section class="adv container clearfix">
+ 		<div class="ad-text ">
+ 			<p class="new-collection">NEW COLLECTION</p>
 			<p class="season">Spring/Summer 2016</p>
- 		</div>
- 
+ 		</div>	
  	</section>
-
- 	<section class="handCrafted">
- 		<div class="handCraftedStyle container ">
- 			<div class="bigItalic ">Hand-Crafted <span class="bigBold" >Styles</span></div>
-			<p class="handCraftedParagraph">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+ 	<section class="handcrafted container clearfix">
+ 		<div >
+			 <h2>Hand-Crafted <span class="emphasis">Styles</span> </h2>
+			<p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
  		</div>
- 		 
- 	</section>
- 
- 
-	<section class="mostLoved">
-		<div class="  container clearfix">
-			<div class="mostLovedContent bigItalic">Most-Loved <span class="bigBold"> Products<span></div> 
+ 	</section>	 
+	<section class="mostloved container clearfix">
+		<div >
+			<h2>Most-Loved <span class="emphasis"> Products</span></h2>
 			<ul class="mostLovedUL">
-				<li class="mostLovedLI">
+				<li class="columns">
 					<img src="images/stretch-knit-dress.jpg" alt="Dress stretch-knit-dress">
-					<p class="itemType">Dresses</p>
-					<p class="mediumText">Stretch Knit Dress</p>
+					<p class="item-type">Dresses</p>
+					<p class="item-name">Stretch Knit Dress</p>
 					<p class="price">$169.00</p>
 				</li>
-				<li class="mostLovedLI">
+				<li class="columns">
 					<img src="images/cotton-blue-shirt.jpg" alt="Shirts cotton-blue-shirt">
-					<p class="itemType">Shirts</p>
-					<p class="mediumText">Cotton Blue Shirts</p>
+					<p class="item-type">Shirts</p>
+					<p class="item-name">Cotton Blue Shirts</p>
 					<p class="price">$89.00</p>
 				</li>
-				<li class="mostLovedLI">
+				<li class="columns">
 					<img src="images/checked-stretch-dress.jpg" alt="Dress checked-stretch-dress">
-					<p class="itemType">Dresses</p>
-					<p class="mediumText">Checked Stretch Dress</p>
+					<p class="item-type">Dresses</p>
+					<p class="item-name">Checked Stretch Dress</p>
 					<p class="price">$129.00</p>
 				</li>
-				<li class="mostLovedLI">
+				<li class="columns">
 					<img src="images/blue-hipster-backpack.jpg" alt="Bags blue-hipster-backpack">
-					<p class="itemType">Bags</p>
-					<p class="mediumText">Blue Hipster Backpack</p>
+					<p class="item-type">Bags</p>
+					<p class="item-name">Blue Hipster Backpack</p>
 					<p class="price">$69.00</p>
 				</li>
 			</ul>
 		</div>
- 		
 	</section>
- 
-	<section class="subscribe clearfix ">
-		<!-- <div class="container"> -->
-			<div class="subscribeContent bigItalic">Sign-up for <span  class="bigBold">Updates</span> </div> 
-			<p class="subscribeParagraph">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-		
-			<form class="subscribeForm">
-				<input type="email" value="Your email">
+	<section class="subscribe container clearfix ">
+			<h2>Sign-up for <span  class="emphasis">Updates</span></h2>
+			<p >Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+			<form class="subscribe-form">
+				<input type="email" value="Your email" id="email">
 				<input type="button" name="subscribe" value="Subscribe" >
 			</form>
-		<!-- </div> -->
- 
 	</section> 
+
 	<footer class="clearfix">
-		<div class="footerLeft clearfix">
+		<div class="contact-group clearfix">
 			<div class="copyRight">
 				<p>&#169; 2016 Aloha Apparel Co.</p>
 				<p>Powered by HTML and CSS.</p>
@@ -85,22 +74,20 @@
 			<div class="phoneEmail">
 				<p>604-604-6040.  <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a>  </p>	
 			</div> 
-			 
 			<address>
 				<p>1490 W Broadway</p>
 				<p>Vancouver,BC, Canada</p>
 			</address>
 		</div>
-
-		<div class="footerRight clearfix">
-			<ul class="ulFooter">
-				<li class="liFooter"><i class="fa fa-facebook-official" aria-hidden="true"></i><span class="footerLI">Facebook</span> </li>
-				<li class="liFooter"><i class="fa fa-twitter" aria-hidden="true"></i><span class="footerLI">Twitter</span> </li>
-				<li class="liFooter"><i class="fa fa-instagram" aria-hidden="true"><span class="footerLI">Instagram</span></i></li>
-				<li class="liFooter"><i class="fa fa-pinterest" aria-hidden="true"></i><span class="footerLI">Pinterest</span> </li>
-				<li class="liFooter"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="footerLI">Google+</span></li>
+		<div class="social-media clearfix">
+			<ul >
+				<li class="liFooter"><i class="fa fa-facebook-official" aria-hidden="true"></i><span class="social-text">Facebook</span> </li>
+				<li class="liFooter"><i class="fa fa-twitter" aria-hidden="true"></i><span class="social-text">Twitter</span> </li>
+				<li class="liFooter"><i class="fa fa-instagram" aria-hidden="true"><span class="social-text">Instagram</span></i></li>
+				<li class="liFooter"><i class="fa fa-pinterest" aria-hidden="true"></i><span class="social-text">Pinterest</span> </li>
+				<li class="liFooter"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="social-text">Google+</span></li>
 			</ul>
 		</div>
 	</footer>
-	</body>
+</body>
 </html>

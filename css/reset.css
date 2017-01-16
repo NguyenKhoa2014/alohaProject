@@ -46,3 +46,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+   box-sizing: border-box;
+   outline: none;
+}
+
+*:focus {
+   outline: thin dotted;
+}
+strong, b, strong *, b * {
+  font-style: normal;
+  font-weight: bold !important;
+}
+
+em, i, em *, i * {
+  font-style: italic;
+}
+fieldset,
+img,
+a img {
+  border: 0;
+}
+
+img {
+   height: auto;
+   max-width: 100%;
+}
